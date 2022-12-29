@@ -1,4 +1,15 @@
-Punith is a god
-Punith should be born in karantaka
-come soon
-Thanks
+ sudo apt update
+    2  sudo apt install docker.io
+    3  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+    4  sudo dpkg -i minikube_latest_amd64.deb
+    5  minikube start
+    6  sudo chmod 777 /var/run/docker.sock
+    7  minikube start
+    8  minikube status
+    9  kubectl get nodes
+   10  sudo apt install kubectl
+   11  minikube kubectl -- <kubectl commands>
+   12  minikube kubectl -- get po -A
+   13  minikube dashboard
+   14  sudo snap install kubectl --classic
+   15  history
